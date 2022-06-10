@@ -25,6 +25,7 @@ public class Starbucks {
         private String milkType;
         private Boolean isSoft;
 
+        // sadece zorunlu field ile constructor oluşturuyoruz...
         public Builder(String coffeeSize) {
             this.coffeeSize = coffeeSize;
         }
